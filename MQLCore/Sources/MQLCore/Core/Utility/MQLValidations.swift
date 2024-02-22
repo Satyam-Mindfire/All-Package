@@ -63,6 +63,9 @@ public class MQLValidations {
         return false
     }
     
+    public static func printHi(name: String) {
+        debugPrint("Hi \(name)")
+    }
 }
 
 
