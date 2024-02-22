@@ -40,5 +40,11 @@ let package = Package(
         .testTarget(
             name: "MobileQuickLaunchKitTests",
             dependencies: ["MobileQuickLaunchKit"]),
+        .testTarget(
+            name: "MQLCoreTests",
+            dependencies: ["MQLCore"]),
+        .testTarget(
+            name: "MQLCoreUITests",
+            dependencies: ["MQLCoreUI"]),
     ]
 )
