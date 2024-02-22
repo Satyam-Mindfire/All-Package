@@ -26,6 +26,8 @@ let package = Package(
         .target(
             name: "MobileQuickLaunchKit",
             dependencies: [
+                "MQLCore",
+                "MQLCoreUI",
                 .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
                 .product(name: "GoogleSignIn", package: "GoogleSignIn-iOS"),
                 .product(name: "GoogleSignInSwift", package: "GoogleSignIn-iOS")
